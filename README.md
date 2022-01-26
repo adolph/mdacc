@@ -1,5 +1,5 @@
 # MD Anderson Labs
-### List of lab repositories as MD Anderson Cancer Center
+### List of MD Anderson Cancer Center lab repositories 
 
 ---
 
