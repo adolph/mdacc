@@ -1,0 +1,1 @@
+grep -i https README.md | cut -d '(' -f2 | tr -d ')' | cut -d'/' -f5 | while read usr; do curl -s https://api.github.com/users/${usr}/repos |jq '.[] | {"full_name":.full_name,"updated_at":.updated_at}'; done > repos.ndjson
